@@ -1,0 +1,73 @@
+.top-container {
+  background-color: beige;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 0px;
+  display: flex;
+}
+.middle-container {
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+.profile {
+  justify-content: center;
+  text-align: center;
+}
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+h2 {
+  font-size: 50px;
+  font-family: Roboto, arial, sans-serif;
+  color: rgb(114, 114, 22);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between icons */
+  padding: 50px;
+  position: relative;
+  background-color: beige;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+footer svg {
+  width: 20px;
+  height: 20px;
+  fill: #2b3035; /* Default color for the icons */
+}
+.icon:hover {
+  fill: #2b3035;
+}
+
+
+.top-text {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  font-family: Libre Baskerville, arial, sans-serif;
+  color: #333;
+}
+
+p {
+  font-size: 20px;
+  font-family: Roboto, arial, sans-serif;
+  font-style: italic;
+  color: #333;
+}
